@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    display: flex;
+    gap: 10px;
+}
+button{
+    text-align: center;
+    text-transform: capitalize;
+    padding:15px;
+    font-size: 15px;
+    font-weight: 600;
+}
+#countries-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+.card{
+    border: solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;  
+    width:150px; 
+    height: 150px;
+    margin: 20px;
+}
