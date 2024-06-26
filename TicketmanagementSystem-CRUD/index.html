@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket management System with CRUD</title>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <a href="styles/index.css">Add more tickets</a>
+    </nav>
+    <h2>Your Tickets</h2> 
+    <div id="tickets">
+        <table border="1">
+            <thead>
+              <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Due Date</th>
+                <th>Priority</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tickets-container">
+            </tbody>
+          </table>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
